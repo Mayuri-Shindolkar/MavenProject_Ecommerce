@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test1(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="projectAmazon.TestCase3">
+        <methods>
+          <include name="quit"/>
+          <include name="logintoamazon"/>
+          <include name="testcase1"/>
+        </methods>
+      </class> <!-- projectAmazon.TestCase3 -->
+      <class name="projectAmazon.TestCase2">
+        <methods>
+          <include name="quit"/>
+          <include name="logintoamazon"/>
+          <include name="testcase1"/>
+        </methods>
+      </class> <!-- projectAmazon.TestCase2 -->
+      <class name="projectAmazon.TestCase14">
+        <methods>
+          <include name="quit"/>
+          <include name="product_ratings"/>
+          <include name="testcase1"/>
+        </methods>
+      </class> <!-- projectAmazon.TestCase14 -->
+      <class name="projectAmazon.TestCase11">
+        <methods>
+          <include name="quit"/>
+          <include name="entire_checkoutprocess"/>
+          <include name="testcase1"/>
+        </methods>
+      </class> <!-- projectAmazon.TestCase11 -->
+      <class name="projectAmazon.TestCase10">
+        <methods>
+          <include name="quit"/>
+          <include name="cart_quantity"/>
+          <include name="testcase1"/>
+        </methods>
+      </class> <!-- projectAmazon.TestCase10 -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
