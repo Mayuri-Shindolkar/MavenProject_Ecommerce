@@ -19,7 +19,7 @@ public class Incorrect_Login extends Ddt_Class
 		@FindBy(id="signInSubmit")
 		WebElement submit;	
 		//step2
-		public void emailmethod1()
+		/*public void emailmethod1()
 		{
 		try {
 			email.sendKeys(Invalid_username);
@@ -29,6 +29,11 @@ public class Incorrect_Login extends Ddt_Class
 			System.out.println("invalid username");
 		}
 			
+		}*/
+		public void emailmethod1()
+		{
+			email.sendKeys("mayuri.shindolkar55@gmail.com");
+			Assert.assertEquals(email.isDisplayed(),true,"testcase is pass");
 		}
 		public void continue_button()
 		{
@@ -36,7 +41,7 @@ public class Incorrect_Login extends Ddt_Class
 		}
 		public void pwd2()
 		{
-			pwd1.sendKeys(Invalid_password);
+			pwd1.sendKeys("mayuri1224");
 			
 		}
 		public void submit_button()

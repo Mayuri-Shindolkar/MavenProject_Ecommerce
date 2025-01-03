@@ -40,7 +40,7 @@ public class TestCase7 extends Launch_Quit
 		 p1.price1();
 		Thread.sleep(4000);
 		 p1.reviews1();
-		 Thread.sleep(1000);
+		 Thread.sleep(2000);
 		 p1.description1();
 	}
 

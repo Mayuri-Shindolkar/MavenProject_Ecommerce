@@ -11,7 +11,7 @@ public class Product_Rating
 	WebDriver driver;
 	@FindBy(xpath="//span[.='& Orders']")
 	WebElement order1;
-	@FindBy(id="a-autoid-6-announce")
+	@FindBy(id="a-autoid-5-announce")
 	WebElement leaveseller;
 	@FindBy(name="star1")
 	WebElement star1;
